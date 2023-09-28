@@ -23,6 +23,7 @@ const Home = () => {
     await signOut(auth)
       .then(() => {
         navigate('/login');
+        alert('Logged out Successfully');
       })
       .catch((err) => console.log(err.message));
   };
