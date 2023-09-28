@@ -23,8 +23,6 @@ const SignUp = () => {
         console.log('An error occurred', err.message);
       });
 
-      
-  };
   const googleSignUp = async (e) => {
     e.preventDefault();
 
