@@ -111,8 +111,8 @@ const SignUp = () => {
         const user = userCredential.user;
         setEmail('');
         setPassword('');
-        alert('Logged in Successfully!!!');
         navigate('/home');
+        alert('Signed up Successfully!!!');
         console.log(user);
       })
       .catch((err) => {
